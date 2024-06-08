@@ -13,12 +13,6 @@ img {
 	margin: 0 auto;
 }
 
-/* helpers */
-.element--animated {
-	transition: all 400ms;
-}
-/* end helpers */
-
 /* card styling */
 .card {
 	display: flex;
@@ -66,6 +60,7 @@ img {
 
 .card__title {
 	font-size: clamp(1.5rem, 2.3vw, 2rem);
+	text-transform: uppercase;
 }
 
 .card__description {
