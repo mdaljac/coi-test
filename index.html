@@ -4,11 +4,41 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
-		<title>Document</title>
+		<title>Task 1</title>
 	</head>
 	<body>
-		<div><h1>title</h1></div>
-
-		<script src="index.js"></script>
+		<section>
+			<div class="container">
+				<div class="card">
+					<div class="card__image">
+						<img src="assets/image.jpg" alt="" />
+					</div>
+					<div class="card__text">
+						<h3 class="card__title">Handcrafted and responsibly sourced</h3>
+						<p class="card__description">
+							On the other hand, we denounce with righteous indignation and
+							dislike men who are so beguiled and demoralized by the charms of
+							pleasure of the moment, so blinded by desire, that they cannot
+							foresee the pain and trouble that are bound to ensue; and equal
+							blame belongs to those who fail in their duty through weakness of
+							will, which is the same as saying through shrinking from toil and
+							pain.
+						</p>
+						<p class="card__description js-hidden" data-target="p-1">
+							On the other hand, we denounce with righteous indignation and
+							dislike men who are so beguiled and demoralized by the charms of
+							pleasure of the moment, so blinded by desire, that they cannot
+							foresee the pain and trouble that are bound to ensue; and equal
+							blame belongs to those who fail in their duty through weakness of
+							will, which is the same as saying through shrinking from toil and
+							pain.
+						</p>
+						<button class="button js-button" data-open="p-1">Learn more</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+		<script src="index.js" type="module"></script>
 	</body>
 </html>
